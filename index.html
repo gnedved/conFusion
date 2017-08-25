@@ -18,7 +18,7 @@
 <body>
     <nav class="navbar navbar-inverse navbar-toggleable-sm fixed-top">
         <div class="container">
-           <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="41"></a>
+           <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="41" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,10 +40,10 @@
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
-                    <img src="img/logo.png" class="img-fluid">
+                    <img src="img/logo.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-12 col-sm-3">
-                    <a role="button" class="btn btn-primary btn-sm btn-block" href="#radio1">Reserve</a>
+                    <a role="button" class="btn btn-sm btn-block btn-warning" href="#ReserveTable">Reserve</a>
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@
                         <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
                         <p class="hidden-xs-down">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
                     </div>
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="Weekend Grand Buffet">
+                    <img class="d-flex ml-3 img img-thumbnail align-self-center" src="img/buffet.png" alt="Weekend Grand Buffet">
                 </div>
             </div>
         </div>
@@ -105,14 +105,14 @@
             </div>
         </div>
 
-        <div class="row row-content alight-items-center">
-            <div class="card col-sm-8">
-                <h3 class="card-header bg-primary text-white">Reserve a Table</h3>
-                    <div class="card-block">
+        <div class="row row-content alight-items-center" id="ReserveTable">
+            <div class="card">
+                <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                    <div class="card-block col-sm-8">
                         <form>
                             <div class="form-group row">
-                                <div class="col-sm-2">
-                                    <label for="Number of Guests" class="col-form-label">Number of Guests</label>
+                                <div class="col-sm-3">
+                                    <label class="col-form-label">Number of Guests</label>
                                 </div>
                                 <label class="custom-control custom-radio col-1">
                                     <input id="radio1" name="radio" type="radio" class="custom-control-input">
@@ -146,10 +146,10 @@
                                 </label>
                             </div>
                             <div class="form-group row">
-                                <div class="col-sm-2">
-                                    <label for="Date and Time" class="col-form-label">Date and Time</label>
+                                <div class="col-sm-3">
+                                    <label class="col-form-label">Date and Time</label>
                                 </div>
-                                <div class="col-12 col-sm-10">
+                                <div class="col-12 col-sm-8">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
                                         <input class="form-control" type="text" id="date" name="date" placeholder="Date">
@@ -171,7 +171,7 @@
     </div>
 
     <footer class="footer">
-        <div = class="container">
+        <div class="container">
             <div  class="row">             
                 <div class="col-5 offset-1 col-sm-2">
                     <h5>Links</h5>
